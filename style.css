@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    text-align: center;
+}
+.board{
+    padding: 18px;
+    display: grid;
+    grid-template-columns: repeat(7,80px);
+    grid-template-rows: repeat(6,80px);
+    gap: 5px;
+    background-color: #448AFF;
+    border-radius: 10px;
+}
+.cell{
+    height: 80px; width: 80px;
+    background-color: #ECEFF1;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.message {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
